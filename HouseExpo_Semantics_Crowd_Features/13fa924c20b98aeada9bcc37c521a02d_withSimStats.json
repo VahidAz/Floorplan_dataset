@@ -1,0 +1,642 @@
+{
+  "room_category": {
+    "Toilet": {
+      "simulation_statistics": [
+        {
+          "not_completed_agents": 0, 
+          "max_evacuation_time": 4.7, 
+          "min_evacuation_time": 4.7, 
+          "exit_flow_rate": 0.2127659574468085, 
+          "completed_agents": 1, 
+          "max_traveled_distance": 3.366112, 
+          "avg_evacuation_time": 4.7, 
+          "avg_traveled_distance": 3.366112, 
+          "min_traveled_distance": 3.366112
+        }, 
+        {
+          "not_completed_agents": 0, 
+          "max_evacuation_time": 150.004547, 
+          "min_evacuation_time": 150.004547, 
+          "exit_flow_rate": 0.0, 
+          "completed_agents": 0, 
+          "max_traveled_distance": 17.893122, 
+          "avg_evacuation_time": 150.004547, 
+          "avg_traveled_distance": 10.518886, 
+          "min_traveled_distance": 3.14465
+        }
+      ], 
+      "bounds": [
+        [
+          3.43, 
+          -0.02, 
+          5.49, 
+          2.13
+        ], 
+        [
+          3.44, 
+          6.33, 
+          5.52, 
+          10.9
+        ]
+      ]
+    }, 
+    "Bathroom": {
+      "simulation_statistics": [
+        {
+          "not_completed_agents": 0, 
+          "max_evacuation_time": 150.004547, 
+          "min_evacuation_time": 150.004547, 
+          "exit_flow_rate": 0.0, 
+          "completed_agents": 0, 
+          "max_traveled_distance": 15.229224, 
+          "avg_evacuation_time": 150.004547, 
+          "avg_traveled_distance": 8.3161475, 
+          "min_traveled_distance": 1.403071
+        }
+      ], 
+      "bounds": [
+        [
+          3.44, 
+          6.33, 
+          5.52, 
+          10.9
+        ]
+      ]
+    }, 
+    "Hallway": {
+      "simulation_statistics": [
+        {
+          "not_completed_agents": 0, 
+          "max_evacuation_time": 5.500003, 
+          "min_evacuation_time": 3.999997, 
+          "exit_flow_rate": 0.3636361652893644, 
+          "completed_agents": 2, 
+          "max_traveled_distance": 4.972432, 
+          "avg_evacuation_time": 4.75, 
+          "avg_traveled_distance": 4.437597, 
+          "min_traveled_distance": 3.902762
+        }
+      ], 
+      "bounds": [
+        [
+          2.82, 
+          2.04, 
+          5.5, 
+          6.42
+        ]
+      ]
+    }, 
+    "Living_Room": {
+      "simulation_statistics": [
+        {
+          "not_completed_agents": 0, 
+          "max_evacuation_time": 150.004547, 
+          "min_evacuation_time": 5.750004, 
+          "exit_flow_rate": 0.0333323229195179, 
+          "completed_agents": 5, 
+          "max_traveled_distance": 34.267109, 
+          "avg_evacuation_time": 79.5672819, 
+          "avg_traveled_distance": 12.5945469, 
+          "min_traveled_distance": 3.295683
+        }
+      ], 
+      "bounds": [
+        [
+          5.43, 
+          0.01, 
+          11.59, 
+          7.9
+        ]
+      ]
+    }, 
+    "Bedroom": {
+      "simulation_statistics": [
+        {
+          "not_completed_agents": 0, 
+          "max_evacuation_time": 13.400033, 
+          "min_evacuation_time": 7.45001, 
+          "exit_flow_rate": 0.3731334094475737, 
+          "completed_agents": 5, 
+          "max_traveled_distance": 10.900772, 
+          "avg_evacuation_time": 10.470021599999999, 
+          "avg_traveled_distance": 9.205381200000001, 
+          "min_traveled_distance": 7.633146
+        }
+      ], 
+      "bounds": [
+        [
+          -0.01, 
+          4.13, 
+          3.55, 
+          10.89
+        ]
+      ]
+    }, 
+    "Child_Room": {
+      "simulation_statistics": [
+        {
+          "not_completed_agents": 0, 
+          "max_evacuation_time": 1.25, 
+          "min_evacuation_time": 0.0, 
+          "exit_flow_rate": 2.4, 
+          "completed_agents": 3, 
+          "max_traveled_distance": 1.546564, 
+          "avg_evacuation_time": 0.5499999999999999, 
+          "avg_traveled_distance": 0.7635143333333333, 
+          "min_traveled_distance": 0.0
+        }, 
+        {
+          "not_completed_agents": 0, 
+          "max_evacuation_time": 0.95, 
+          "min_evacuation_time": 0.5, 
+          "exit_flow_rate": 3.1578947368421053, 
+          "completed_agents": 3, 
+          "max_traveled_distance": 1.831401, 
+          "avg_evacuation_time": 0.6666666666666666, 
+          "avg_traveled_distance": 1.05988, 
+          "min_traveled_distance": 0.617694
+        }
+      ], 
+      "bounds": [
+        [
+          -0.01, 
+          -0.02, 
+          3.55, 
+          4.22
+        ], 
+        [
+          -0.05, 
+          -0.02, 
+          3.55, 
+          4.22
+        ]
+      ]
+    }
+  }, 
+  "room_num": 8, 
+  "verts": [
+    [
+      0.1, 
+      0.1
+    ], 
+    [
+      0.1, 
+      4.08
+    ], 
+    [
+      0.52, 
+      4.08
+    ], 
+    [
+      0.53, 
+      4.09
+    ], 
+    [
+      1.38, 
+      4.09
+    ], 
+    [
+      1.39, 
+      4.1
+    ], 
+    [
+      2.25, 
+      4.1
+    ], 
+    [
+      2.26, 
+      4.11
+    ], 
+    [
+      3.11, 
+      4.11
+    ], 
+    [
+      3.12, 
+      4.12
+    ], 
+    [
+      3.43, 
+      4.12
+    ], 
+    [
+      3.43, 
+      3.71
+    ], 
+    [
+      3.44, 
+      3.7
+    ], 
+    [
+      3.55, 
+      3.7
+    ], 
+    [
+      3.56, 
+      3.71
+    ], 
+    [
+      3.56, 
+      4.93
+    ], 
+    [
+      3.55, 
+      4.94
+    ], 
+    [
+      3.44, 
+      4.94
+    ], 
+    [
+      3.43, 
+      4.93
+    ], 
+    [
+      3.43, 
+      4.24
+    ], 
+    [
+      0.1, 
+      4.24
+    ], 
+    [
+      0.1, 
+      10.78
+    ], 
+    [
+      3.45, 
+      10.78
+    ], 
+    [
+      3.45, 
+      7.84
+    ], 
+    [
+      3.46, 
+      7.83
+    ], 
+    [
+      3.56, 
+      7.83
+    ], 
+    [
+      3.57, 
+      7.84
+    ], 
+    [
+      3.56, 
+      7.85
+    ], 
+    [
+      3.56, 
+      7.9
+    ], 
+    [
+      3.57, 
+      7.91
+    ], 
+    [
+      3.57, 
+      10.78
+    ], 
+    [
+      4.52, 
+      10.78
+    ], 
+    [
+      4.53, 
+      10.79
+    ], 
+    [
+      5.41, 
+      10.79
+    ], 
+    [
+      5.41, 
+      8.54
+    ], 
+    [
+      5.42, 
+      8.53
+    ], 
+    [
+      5.42, 
+      6.44
+    ], 
+    [
+      3.57, 
+      6.44
+    ], 
+    [
+      3.57, 
+      7.08
+    ], 
+    [
+      3.56, 
+      7.09
+    ], 
+    [
+      3.46, 
+      7.09
+    ], 
+    [
+      3.45, 
+      7.08
+    ], 
+    [
+      3.45, 
+      6.42
+    ], 
+    [
+      3.44, 
+      6.42
+    ], 
+    [
+      3.43, 
+      6.41
+    ], 
+    [
+      3.43, 
+      5.95
+    ], 
+    [
+      3.44, 
+      5.94
+    ], 
+    [
+      3.55, 
+      5.94
+    ], 
+    [
+      3.56, 
+      5.95
+    ], 
+    [
+      3.56, 
+      6.31
+    ], 
+    [
+      4.51, 
+      6.31
+    ], 
+    [
+      4.52, 
+      6.32
+    ], 
+    [
+      5.4, 
+      6.32
+    ], 
+    [
+      5.4, 
+      4.16
+    ], 
+    [
+      5.39, 
+      4.15
+    ], 
+    [
+      5.39, 
+      2.14
+    ], 
+    [
+      3.55, 
+      2.14
+    ], 
+    [
+      3.55, 
+      2.69
+    ], 
+    [
+      3.54, 
+      2.7
+    ], 
+    [
+      3.44, 
+      2.7
+    ], 
+    [
+      3.43, 
+      2.69
+    ], 
+    [
+      3.43, 
+      1.42
+    ], 
+    [
+      3.44, 
+      1.41
+    ], 
+    [
+      3.53, 
+      1.41
+    ], 
+    [
+      3.54, 
+      1.42
+    ], 
+    [
+      3.54, 
+      2.03
+    ], 
+    [
+      5.39, 
+      2.03
+    ], 
+    [
+      5.39, 
+      1.07
+    ], 
+    [
+      5.4, 
+      1.06
+    ], 
+    [
+      5.57, 
+      1.06
+    ], 
+    [
+      5.58, 
+      1.07
+    ], 
+    [
+      5.58, 
+      2.58
+    ], 
+    [
+      5.57, 
+      2.59
+    ], 
+    [
+      5.57, 
+      4.1
+    ], 
+    [
+      5.56, 
+      4.11
+    ], 
+    [
+      5.56, 
+      5.62
+    ], 
+    [
+      5.55, 
+      5.63
+    ], 
+    [
+      5.55, 
+      7.14
+    ], 
+    [
+      5.54, 
+      7.15
+    ], 
+    [
+      5.54, 
+      7.79
+    ], 
+    [
+      5.66, 
+      7.79
+    ], 
+    [
+      5.67, 
+      7.8
+    ], 
+    [
+      5.67, 
+      7.9
+    ], 
+    [
+      5.66, 
+      7.91
+    ], 
+    [
+      5.54, 
+      7.91
+    ], 
+    [
+      5.54, 
+      9.4
+    ], 
+    [
+      5.53, 
+      9.41
+    ], 
+    [
+      5.53, 
+      10.79
+    ], 
+    [
+      11.48, 
+      10.79
+    ], 
+    [
+      11.48, 
+      7.91
+    ], 
+    [
+      7.52, 
+      7.91
+    ], 
+    [
+      7.51, 
+      7.9
+    ], 
+    [
+      7.51, 
+      7.8
+    ], 
+    [
+      7.52, 
+      7.79
+    ], 
+    [
+      11.48, 
+      7.79
+    ], 
+    [
+      11.48, 
+      2.81
+    ], 
+    [
+      8.32, 
+      2.81
+    ], 
+    [
+      8.31, 
+      2.8
+    ], 
+    [
+      8.23, 
+      2.8
+    ], 
+    [
+      8.21, 
+      2.78
+    ], 
+    [
+      8.21, 
+      2.7
+    ], 
+    [
+      8.2, 
+      2.69
+    ], 
+    [
+      8.2, 
+      0.13
+    ], 
+    [
+      5.4, 
+      0.13
+    ], 
+    [
+      5.39, 
+      0.12
+    ], 
+    [
+      5.39, 
+      0.1
+    ], 
+    [
+      3.54, 
+      0.1
+    ], 
+    [
+      3.54, 
+      0.65
+    ], 
+    [
+      3.53, 
+      0.66
+    ], 
+    [
+      3.44, 
+      0.66
+    ], 
+    [
+      3.43, 
+      0.67
+    ], 
+    [
+      3.42, 
+      0.66
+    ], 
+    [
+      3.42, 
+      0.1
+    ]
+  ], 
+  "bbox": {
+    "max": [
+      11.48, 
+      10.79
+    ], 
+    "min": [
+      0.1, 
+      0.1
+    ]
+  }, 
+  "id": "13fa924c20b98aeada9bcc37c521a02d"
+}
