@@ -1,7 +1,7 @@
 # houseExpo++ dataset
 ## HouseExpo Dataset Augmented with Crowd Behavioral Features
 
-The original dataset was create by Tingguang Li and et al. at Robotics, Perception, and AI Laboratory, The Chinese University of Hong Kong. The paper and video can be found at: https://arxiv.org/abs/1903.09845 . It contained about 35,357 2D floor plans with 252,550 rooms in total, together with the category label of each room(https://github.com/TeaganLi/HouseExpo).
+The original dataset was create by Tingguang Li and et al. at Robotics, Perception, and AI Laboratory, The Chinese University of Hong Kong. The paper and video can be found at: https://arxiv.org/abs/1903.09845 . It contained about 35,126 2D floor plans with 252,550 rooms in total, together with the category label of each room(https://github.com/TeaganLi/HouseExpo).
 
 houseExpo++: The new dataset which is augmented with crowd behaviroal features and design semantic features.
 
@@ -13,9 +13,9 @@ houseExpo++: The new dataset which is augmented with crowd behaviroal features a
 ##### Data Format:
 ##### graphs:
 A list of dictionaries which inclides:
-- lable: unique label for each room
+- label: an unique label for each room
 
-- position [X,Y]: the coordinate of each room
+- position [X,Y]: the center coordinate of each room
 
 - square footage: caclculated square footage of each room
 
