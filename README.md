@@ -37,21 +37,21 @@ The floorplans are stored as .json files. The data format is as follows:
 - room_category (dict): the room categories and its bounding box, for example "kitchen": (x1, y1, x2, y2), bounding box of each kitchen.
 --- simulation_statistics (list): a list of simulation statistics for each bounding box within a room_category. 
 
------ not_completed_agents (int): number of agents who couldn't complete the crowd simulation scenario
+  - not_completed_agents (int): number of agents who couldn't complete the crowd simulation scenario
 
------ max_evacuation_time (float): maximum time in seconds took by an agent in completing the simulation scenario
+  - max_evacuation_time (float): maximum time in seconds took by an agent in completing the simulation scenario
 
------ min_evacuation_time (float): minimum time in seconds took by an agent in completing the simulation scenario 
+  - min_evacuation_time (float): minimum time in seconds took by an agent in completing the simulation scenario 
 
------ exit_flow_rate (float): the rate at which agents complete the simulation scenario (agents/second)
+  - exit_flow_rate (float): the rate at which agents complete the simulation scenario (agents/second)
 
------ completed_agents (int): number of agents who successfully completed the crowd simulation scenario
+  - completed_agents (int): number of agents who successfully completed the crowd simulation scenario
 
------ max_traveled_distance (float): maximum distance in meter traveled by an agent in completing the simulation scenario
+  - max_traveled_distance (float): maximum distance in meter traveled by an agent in completing the simulation scenario
 
------ avg_evacuation_time (float): average time in seconds took by all the agent in completing the simulation scenario
+  - avg_evacuation_time (float): average time in seconds took by all the agent in completing the simulation scenario
 
------ avg_traveled_distance (float): average distance in meter traveled by all the agent in completing the simulation scenario
+  - avg_traveled_distance (float): average distance in meter traveled by all the agent in completing the simulation scenario
 
------ min_traveled_distance (float): minimum distance in meter traveled by an agent in completing the simulation scenario 
+  - min_traveled_distance (float): minimum distance in meter traveled by an agent in completing the simulation scenario 
 
