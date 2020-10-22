@@ -34,8 +34,7 @@ The floorplans are stored as .json files. The data format is as follows:
 
 - verts (list): each element (x, y) represents a vertex location (in meter).
 
-- room_category (dict): the room categories and its bounding box, for example
--- "kitchen": (x1, y1, x2, y2), bounding box of each kitchen.
+- room_category (dict): the room categories and its bounding box, for example "kitchen": (x1, y1, x2, y2), bounding box of each kitchen.
 --- simulation_statistics (list): a list of simulation statistics for each bounding box within a room_category. 
 
 ----- not_completed_agents (int): number of agents who couldn't complete the crowd simulation scenario
