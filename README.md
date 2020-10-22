@@ -11,8 +11,17 @@ houseExpo++: The new dataset which is augmented with crowd behaviroal features a
 ##### human behavioral features: a json file for each floorplan which includes the original json of houseExpo dataset plus human behavioral features for each room.
 
 ##### Data Format:
+##### graphs:
+A list of dictionaries which inclides:
+- lable: unique label for each room
 
-###### original floorplans plus human behaviroal features
+- position [X,Y]: the coordinate of each room
+
+- square footage: caclculated square footage of each room
+
+- connections: a list of dictionaries to connected nodes and direction of connection
+
+##### original floorplans plus human behaviroal features
 The floorplans are stored as .json files. The data format is as follows:
 
 - id (string): the unique house ID number.
