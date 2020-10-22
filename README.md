@@ -3,15 +3,16 @@
 
 The original dataset was create by Tingguang Li and et al. at Robotics, Perception, and AI Laboratory, The Chinese University of Hong Kong. The paper and video can be found at: https://arxiv.org/abs/1903.09845 . It contained about 35,357 2D floor plans with 252,550 rooms in total, together with the category label of each room(https://github.com/TeaganLi/HouseExpo).
 
-The new dataset which is augmented with crowd behaviroal features and design semantic features.
+houseExpo++: The new dataset which is augmented with crowd behaviroal features and design semantic features.
 
-## Folder structures:
-### images: includes images of each floorplan
-### graphs: a json file for each floorplan which has the design semnatic features including square footage, connection between rooms and their direction
-### human behavioral features: a json file for each floorplan which includes the original json of houseExpo dataset plus human behavioral features for each room.
+### Folder structures:
+##### images: includes images of each floorplan
+##### graphs: a json file for each floorplan which has the design semnatic features including square footage, connection between rooms and their direction
+##### human behavioral features: a json file for each floorplan which includes the original json of houseExpo dataset plus human behavioral features for each room.
 
-Data Format:
+##### Data Format:
 
+###### original floorplans plus human behaviroal features
 The floorplans are stored as .json files. The data format is as follows:
 
 - id (string): the unique house ID number.
