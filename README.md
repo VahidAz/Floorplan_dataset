@@ -21,7 +21,7 @@ A list of dictionaries which inclides:
 
 - connections: a list of dictionaries to connected nodes and direction of connection
 
-##### original floorplans plus human behaviroal features
+##### Original floorplans plus human behaviroal features:
 The floorplans are stored as .json files. The data format is as follows:
 
 - id (string): the unique house ID number.
@@ -29,8 +29,8 @@ The floorplans are stored as .json files. The data format is as follows:
 - room_num (int): the number of rooms of this house.
 
 - bbox (dict): bounding box of the whole house
--- "min": (x1, y1)
--- "max": (x2, y2)
+  -- "min": (x1, y1)
+  -- "max": (x2, y2)
 
 - verts (list): each element (x, y) represents a vertex location (in meter).
 
