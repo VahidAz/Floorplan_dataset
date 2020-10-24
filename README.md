@@ -6,8 +6,8 @@ The original dataset was create by Tingguang Li and et al. at Robotics, Percepti
 houseExpo++: The houseExpo dataset which is augmented with design semantic features and crowd behaviroal features.
 
 ### Folder structures:
-- images: includes images of each floorplan
-- graphs: a json file for each floorplan which has the design semnatic features including square footage, connection between rooms and their direction
+- images: includes images of each floorplan(grayscale)
+- graphs: a json file for each floorplan which has the design semnatic features including square footage, connection between rooms and the connection direction
 - human behavioral features: a json file for each floorplan which includes the original json of houseExpo dataset plus human behavioral features for each room.
 
 ##### Data Format:
