@@ -10,19 +10,19 @@ houseExpo++: The houseExpo dataset which is augmented with design semantic featu
 - graphs: a json file for each floorplan which has the design semnatic features including square footage, connection between rooms and the connection direction
 - human behavioral features: a json file for each floorplan which includes the original json of houseExpo dataset plus human behavioral features for each room.
 
-##### Data Format:
-##### graphs:
-A list of dictionaries which inclides:
+### Data Format:
+#### graphs:
+A list of dictionaries corresponding to rooms. In each dictionry(for each room) we have the following keys:
 - label: an unique label for each room
 
-- position [X,Y]: the center coordinate of each room
+- position: the center coordinate(X,Y) of each room
 
-- square footage: caclculated square footage of each room
+- square footage: calculated square footage of each room
 
 - connections: a list of dictionaries to connected nodes and direction of connection
 
-##### Original floorplans plus human behaviroal features:
-The floorplans are stored as .json files. The data format is as follows:
+#### human behaviroal features:
+A json file for each floorplan which includes the original data provided in houseExpo plus the human behavioral features in following format: 
 
 - id (string): the unique house ID number.
 
